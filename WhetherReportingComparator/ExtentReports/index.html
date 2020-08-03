@@ -1,0 +1,2169 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Weather Reporting Comparator</title>
+  <link rel="apple-touch-icon" href="https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png">
+  <link rel="shortcut icon" href="https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png">
+  <link href="https://cdn.rawgit.com/extent-framework/extent-github-cdn/cd00a5e/spark/css/style.css" rel="stylesheet" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <style> 
+                
+            </style>
+</head>
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+
+
+
+<body class="test-view  standard">
+    <div class="app header-dark side-nav-folded">
+        <div class="layout">
+            <div class="header navbar">
+    <div class="header-container">
+        <div class="nav-logo">
+          <a href="index.html">
+            <div class="logo logo-dark" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+            <div class="logo logo-white" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+          </a>
+        </div>
+        <ul class="nav-left">
+          <li>
+            <a class="sidenav-fold-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+            <a class="sidenav-expand-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+          </li>
+          <li class="search-box">
+            <a class="search-toggle" href="javascript:void(0);">
+              <i class="search-icon fa fa-search"></i>
+              <i class="search-icon-close fa fa-close"></i>
+            </a>
+          </li>
+          <li class="search-input">
+            <input id="search-tests" class="form-control" type="text" placeholder="Type to search...">
+          </li>
+        </ul>
+        <ul class="nav-right">
+          <li class="m-r-10">
+            <a href="#">
+              <span class="badge badge-primary">Weaher Reporting Comparator</span>
+            </a>
+          </li>
+            <li class="m-r-10">
+                <a href="#">
+                    <span class="badge badge-primary">8/3/2020 11:46:22 AM</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+            <div class="side-nav side-nav-folded">
+  <div class="side-nav-inner">
+    <ul class="side-nav-menu scrollable">
+      <li class="nav-item dropdown">
+        <a id="nav-test" class="dropdown-toggle" href="index.html">
+          <span class="icon-holder">
+            <i class="fa fa-align-left"></i>
+          </span>
+          <span class="title">Tests</span>
+        </a>
+      </li>
+            <li class="nav-item dropdown">
+        <a id="nav-dashboard" class="dropdown-toggle" href="dashboard.html">
+          <span class="icon-holder">
+            <i class="fa fa-bar-chart"></i>
+          </span>
+          <span class="title">Dashboard</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="side-nav-controls">
+    <ul>
+      <li>
+        <a href="#" class="lightsout" style="color:#8a8a8a;">
+          <i class="fa fa-desktop"></i>"</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+            <div class="page-container">
+                <div class="main-content">
+                    <div class="test-wrapper row">
+                        <div class="test-list">
+                            <div class="test-list-tools">
+                                <ul class="tools pull-left">
+                                    <li>
+                                        <a href="">
+                                            <span class="font-size-14">Tests</span>
+                                        </a>
+                                    </li> 
+                                </ul>
+                                <ul class="tools text-right">
+									<li class="user-profile dropdown dropdown-animated scale-left">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+											<i class="fa fa-exclamation-circle"></i>
+										</a>
+										<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a status="pass" class="dropdown-item" href="#"><span>Pass</span><span class="status success pull-right"></span></a>											<a status="fail" class="dropdown-item" href="#"><span>Fail</span><span class="status danger pull-right"></span></a>																																																							<div class="dropdown-divider"></div>
+											<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+										</ul>
+									</li>
+																		                                </ul>
+                            </div>
+                            <div class="test-list-wrapper scrollable">
+                                <ul class="test-list-item">
+										<li class="test-item" status="pass" author="" device="" tag=""> 
+											<div class="status-avatar pass-bg">
+												<i class="fa fa-check text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">WeatherComparisionByCityID</p> 
+													<p class="duration text-sm">0h:0m:23s+966ms</p> 
+													<span class="datetime">11:46:22 AM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-pass">WeatherComparisionByCityID</h5>
+															<span class='badge badge-success'>8/3/2020 11:46:22 AM</span>
+															<span class='badge badge-danger'>8/3/2020 11:46:46 AM</span>
+															<span class='badge badge-default'>0h:0m:23s+966ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:46:41</td>
+				<td>
+Clicked on Submenu in Home Page									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:46:44</td>
+				<td>
+Clicked on Weather Link in Home Page									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:46:45</td>
+				<td>
+Enter City Name to Pin your city Bengaluru									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:46:45</td>
+				<td>
+Selected City Bengaluruavailable on MAP									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:46:45</td>
+				<td>
+weather details are displayed on map as expected									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:46:45</td>
+				<td>
+Fetching weather info on Map from UI displayed below									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:46:45</td>
+				<td>
+tempInCelsius:24									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:46:45</td>
+				<td>
+tempInFH:75									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:46:45</td>
+				<td>
+wind:7.75									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:46:45</td>
+				<td>
+humidity:77									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:46:45</td>
+				<td>
+cityName:Bengaluru									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:46:46</td>
+				<td>
+Response from API :{"coord":{"lon":77.6,"lat":12.98},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}],"base":"stations","main":{"temp":299.32,"feels_like":298.99,"temp_min":298.15,"temp_max":300.93,"pressure":1009,"humidity":78},"visibility":6000,"wind":{"speed":7.2,"deg":230},"clouds":{"all":75},"dt":1596435383,"sys":{"type":1,"id":9205,"country":"IN","sunrise":1596414932,"sunset":1596460556},"timezone":19800,"id":1277333,"name":"Bengaluru","cod":200}									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:46:46</td>
+				<td>
+tempInCelsius:26.17									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:46:46</td>
+				<td>
+tempInFH:79.106									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:46:46</td>
+				<td>
+wind:11.587248									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:46:46</td>
+				<td>
+humidity:78									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:46:46</td>
+				<td>
+cityName:Bengaluru									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:46:46</td>
+				<td>
+Temparature Celsius difference in UI and API is with variance ragne  :Acutal Varince:2.17Expected  Varince:6									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:46:46</td>
+				<td>
+Temparature FH difference in UI and API is with variance ragne  :Acutal Varince:4.106Expected  Varince:10									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:46:46</td>
+				<td>
+Wind Speed difference in UI and API is with variance ragne  :Acutal Varince:3.8372Expected  Varince:15									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:46:46</td>
+				<td>
+humidity difference in UI and API is with variance ragne  :Acutal Varince:1Expected  Varince:20									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:46:46</td>
+				<td>
+CitName in UI and API is matched									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+											</div>
+										</li>
+										<li class="test-item" status="pass" author="" device="" tag=""> 
+											<div class="status-avatar pass-bg">
+												<i class="fa fa-check text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">WeatherComparisionByCityID</p> 
+													<p class="duration text-sm">0h:0m:14s+419ms</p> 
+													<span class="datetime">11:46:46 AM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-pass">WeatherComparisionByCityID</h5>
+															<span class='badge badge-success'>8/3/2020 11:46:46 AM</span>
+															<span class='badge badge-danger'>8/3/2020 11:47:01 AM</span>
+															<span class='badge badge-default'>0h:0m:14s+419ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:46:57</td>
+				<td>
+Clicked on Submenu in Home Page									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:46:59</td>
+				<td>
+Clicked on Weather Link in Home Page									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:00</td>
+				<td>
+Enter City Name to Pin your city Mumbai									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:01</td>
+				<td>
+Selected City Mumbaiavailable on MAP									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:01</td>
+				<td>
+weather details are displayed on map as expected									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:01</td>
+				<td>
+Fetching weather info on Map from UI displayed below									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:47:01</td>
+				<td>
+tempInCelsius:29									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:47:01</td>
+				<td>
+tempInFH:84									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:47:01</td>
+				<td>
+wind:7.64									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:47:01</td>
+				<td>
+humidity:85									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:47:01</td>
+				<td>
+cityName:Mumbai									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:01</td>
+				<td>
+Response from API :{"coord":{"lon":72.85,"lat":19.01},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50d"}],"base":"stations","main":{"temp":302.14,"feels_like":305.74,"temp_min":301.15,"temp_max":303.15,"pressure":1001,"humidity":88},"visibility":3000,"wind":{"speed":5.7,"deg":210,"gust":10.8},"clouds":{"all":75},"dt":1596435368,"sys":{"type":1,"id":9052,"country":"IN","sunrise":1596415571,"sunset":1596462197},"timezone":19800,"id":1275339,"name":"Mumbai","cod":200}									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:47:01</td>
+				<td>
+tempInCelsius:28.99									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:47:01</td>
+				<td>
+tempInFH:84.182									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:47:01</td>
+				<td>
+wind:9.173238									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:47:01</td>
+				<td>
+humidity:88									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:47:01</td>
+				<td>
+cityName:Mumbai									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:01</td>
+				<td>
+Temparature Celsius difference in UI and API is with variance ragne  :Acutal Varince:0.01Expected  Varince:6									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:01</td>
+				<td>
+Temparature FH difference in UI and API is with variance ragne  :Acutal Varince:0.182Expected  Varince:10									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:01</td>
+				<td>
+Wind Speed difference in UI and API is with variance ragne  :Acutal Varince:1.5332Expected  Varince:15									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:01</td>
+				<td>
+humidity difference in UI and API is with variance ragne  :Acutal Varince:3Expected  Varince:20									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:01</td>
+				<td>
+CitName in UI and API is matched									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+											</div>
+										</li>
+										<li class="test-item" status="pass" author="" device="" tag=""> 
+											<div class="status-avatar pass-bg">
+												<i class="fa fa-check text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">WeatherComparisionByCityName</p> 
+													<p class="duration text-sm">0h:0m:14s+350ms</p> 
+													<span class="datetime">11:47:02 AM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-pass">WeatherComparisionByCityName</h5>
+															<span class='badge badge-success'>8/3/2020 11:47:02 AM</span>
+															<span class='badge badge-danger'>8/3/2020 11:47:16 AM</span>
+															<span class='badge badge-default'>0h:0m:14s+350ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:12</td>
+				<td>
+Clicked on Submenu in Home Page									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:14</td>
+				<td>
+Clicked on Weather Link in Home Page									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:16</td>
+				<td>
+Enter City Name to Pin your city Kolkata									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:16</td>
+				<td>
+Selected City Kolkataavailable on MAP									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:16</td>
+				<td>
+weather details are displayed on map as expected									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:16</td>
+				<td>
+Fetching weather info on Map from UI displayed below									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:47:16</td>
+				<td>
+tempInCelsius:34									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:47:16</td>
+				<td>
+tempInFH:93									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:47:16</td>
+				<td>
+wind:2.27									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:47:16</td>
+				<td>
+humidity:64									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:47:16</td>
+				<td>
+cityName:Kolkata									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:16</td>
+				<td>
+Response from API :{"coord":{"lon":88.37,"lat":22.57},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50d"}],"base":"stations","main":{"temp":309.15,"feels_like":318.33,"temp_min":309.15,"temp_max":309.15,"pressure":996,"humidity":75},"visibility":3200,"wind":{"speed":2.1,"deg":360},"clouds":{"all":75},"dt":1596435307,"sys":{"type":1,"id":9114,"country":"IN","sunrise":1596411529,"sunset":1596458789},"timezone":19800,"id":1275004,"name":"Kolkata","cod":200}									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:47:16</td>
+				<td>
+tempInCelsius:36									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:47:16</td>
+				<td>
+tempInFH:96.8									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:47:16</td>
+				<td>
+wind:3.379614									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:47:16</td>
+				<td>
+humidity:75									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:47:16</td>
+				<td>
+cityName:Kolkata									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:16</td>
+				<td>
+Temparature Celsius difference in UI and API is with variance ragne  :Acutal Varince:2Expected  Varince:6									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:16</td>
+				<td>
+Temparature FH difference in UI and API is with variance ragne  :Acutal Varince:3.8Expected  Varince:10									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:16</td>
+				<td>
+Wind Speed difference in UI and API is with variance ragne  :Acutal Varince:1.1096Expected  Varince:15									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:16</td>
+				<td>
+humidity difference in UI and API is with variance ragne  :Acutal Varince:11Expected  Varince:20									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:16</td>
+				<td>
+CitName in UI and API is matched									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+											</div>
+										</li>
+										<li class="test-item" status="pass" author="" device="" tag=""> 
+											<div class="status-avatar pass-bg">
+												<i class="fa fa-check text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">WeatherComparisionByCityName</p> 
+													<p class="duration text-sm">0h:0m:14s+391ms</p> 
+													<span class="datetime">11:47:17 AM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-pass">WeatherComparisionByCityName</h5>
+															<span class='badge badge-success'>8/3/2020 11:47:17 AM</span>
+															<span class='badge badge-danger'>8/3/2020 11:47:31 AM</span>
+															<span class='badge badge-default'>0h:0m:14s+391ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:27</td>
+				<td>
+Clicked on Submenu in Home Page									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:29</td>
+				<td>
+Clicked on Weather Link in Home Page									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:31</td>
+				<td>
+Enter City Name to Pin your city Lucknow									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:31</td>
+				<td>
+Selected City Lucknowavailable on MAP									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:31</td>
+				<td>
+weather details are displayed on map as expected									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:31</td>
+				<td>
+Fetching weather info on Map from UI displayed below									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:47:31</td>
+				<td>
+tempInCelsius:31									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:47:31</td>
+				<td>
+tempInFH:88									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:47:31</td>
+				<td>
+wind:3.29									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:47:31</td>
+				<td>
+humidity:74									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:47:31</td>
+				<td>
+cityName:Lucknow									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:31</td>
+				<td>
+Response from API :{"coord":{"lon":80.92,"lat":26.85},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50d"}],"base":"stations","main":{"temp":303.15,"feels_like":309.05,"temp_min":303.15,"temp_max":303.15,"pressure":997,"humidity":84},"visibility":5000,"wind":{"speed":2.6,"deg":240},"clouds":{"all":75},"dt":1596435345,"sys":{"type":1,"id":9176,"country":"IN","sunrise":1596412913,"sunset":1596460981},"timezone":19800,"id":1264733,"name":"Lucknow","cod":200}									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:47:31</td>
+				<td>
+tempInCelsius:30									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:47:31</td>
+				<td>
+tempInFH:86									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:47:31</td>
+				<td>
+wind:4.184284									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:47:31</td>
+				<td>
+humidity:84									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:47:31</td>
+				<td>
+cityName:Lucknow									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:31</td>
+				<td>
+Temparature Celsius difference in UI and API is with variance ragne  :Acutal Varince:1Expected  Varince:6									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:31</td>
+				<td>
+Temparature FH difference in UI and API is with variance ragne  :Acutal Varince:2Expected  Varince:10									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:31</td>
+				<td>
+Wind Speed difference in UI and API is with variance ragne  :Acutal Varince:0.8943Expected  Varince:15									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:31</td>
+				<td>
+humidity difference in UI and API is with variance ragne  :Acutal Varince:10Expected  Varince:20									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:31</td>
+				<td>
+CitName in UI and API is matched									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+											</div>
+										</li>
+										<li class="test-item" status="pass" author="" device="" tag=""> 
+											<div class="status-avatar pass-bg">
+												<i class="fa fa-check text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">WeatherComparisionByCityName</p> 
+													<p class="duration text-sm">0h:0m:14s+673ms</p> 
+													<span class="datetime">11:47:32 AM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-pass">WeatherComparisionByCityName</h5>
+															<span class='badge badge-success'>8/3/2020 11:47:32 AM</span>
+															<span class='badge badge-danger'>8/3/2020 11:47:46 AM</span>
+															<span class='badge badge-default'>0h:0m:14s+673ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:42</td>
+				<td>
+Clicked on Submenu in Home Page									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:45</td>
+				<td>
+Clicked on Weather Link in Home Page									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:46</td>
+				<td>
+Enter City Name to Pin your city Chennai									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:46</td>
+				<td>
+Selected City Chennaiavailable on MAP									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:46</td>
+				<td>
+weather details are displayed on map as expected									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:46</td>
+				<td>
+Fetching weather info on Map from UI displayed below									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:47:46</td>
+				<td>
+tempInCelsius:30									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:47:46</td>
+				<td>
+tempInFH:86									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:47:46</td>
+				<td>
+wind:5.61									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:47:46</td>
+				<td>
+humidity:68									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:47:46</td>
+				<td>
+cityName:Chennai									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:46</td>
+				<td>
+Response from API :{"coord":{"lon":80.28,"lat":13.09},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}],"base":"stations","main":{"temp":303.15,"feels_like":305.49,"temp_min":303.15,"temp_max":303.15,"pressure":1004,"humidity":66},"visibility":6000,"wind":{"speed":4.1,"deg":240},"clouds":{"all":75},"dt":1596435245,"sys":{"type":1,"id":9218,"country":"IN","sunrise":1596414280,"sunset":1596459921},"timezone":19800,"id":1264527,"name":"Chennai","cod":200}									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:47:46</td>
+				<td>
+tempInCelsius:30									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:47:46</td>
+				<td>
+tempInFH:86									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:47:46</td>
+				<td>
+wind:6.598294									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:47:46</td>
+				<td>
+humidity:66									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:47:46</td>
+				<td>
+cityName:Chennai									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:46</td>
+				<td>
+Temparature Celsius difference in UI and API is with variance ragne  :Acutal Varince:0Expected  Varince:6									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:46</td>
+				<td>
+Temparature FH difference in UI and API is with variance ragne  :Acutal Varince:0Expected  Varince:10									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:46</td>
+				<td>
+Wind Speed difference in UI and API is with variance ragne  :Acutal Varince:0.9883Expected  Varince:15									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:46</td>
+				<td>
+humidity difference in UI and API is with variance ragne  :Acutal Varince:2Expected  Varince:20									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:46</td>
+				<td>
+CitName in UI and API is matched									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+											</div>
+										</li>
+										<li class="test-item" status="pass" author="" device="" tag=""> 
+											<div class="status-avatar pass-bg">
+												<i class="fa fa-check text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">WeatherComparisionByCityName</p> 
+													<p class="duration text-sm">0h:0m:14s+988ms</p> 
+													<span class="datetime">11:47:47 AM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-pass">WeatherComparisionByCityName</h5>
+															<span class='badge badge-success'>8/3/2020 11:47:47 AM</span>
+															<span class='badge badge-danger'>8/3/2020 11:48:02 AM</span>
+															<span class='badge badge-default'>0h:0m:14s+988ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:58</td>
+				<td>
+Clicked on Submenu in Home Page									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:01</td>
+				<td>
+Clicked on Weather Link in Home Page									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:02</td>
+				<td>
+Enter City Name to Pin your city Bengaluru									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:02</td>
+				<td>
+Selected City Bengaluruavailable on MAP									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:02</td>
+				<td>
+weather details are displayed on map as expected									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:02</td>
+				<td>
+Fetching weather info on Map from UI displayed below									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:48:02</td>
+				<td>
+tempInCelsius:24									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:48:02</td>
+				<td>
+tempInFH:75									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:48:02</td>
+				<td>
+wind:7.75									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:48:02</td>
+				<td>
+humidity:77									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:48:02</td>
+				<td>
+cityName:Bengaluru									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:02</td>
+				<td>
+Response from API :{"coord":{"lon":77.6,"lat":12.98},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}],"base":"stations","main":{"temp":299.32,"feels_like":298.99,"temp_min":298.15,"temp_max":300.93,"pressure":1009,"humidity":78},"visibility":6000,"wind":{"speed":7.2,"deg":230},"clouds":{"all":75},"dt":1596435383,"sys":{"type":1,"id":9205,"country":"IN","sunrise":1596414932,"sunset":1596460556},"timezone":19800,"id":1277333,"name":"Bengaluru","cod":200}									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:48:02</td>
+				<td>
+tempInCelsius:26.17									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:48:02</td>
+				<td>
+tempInFH:79.106									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:48:02</td>
+				<td>
+wind:11.587248									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:48:02</td>
+				<td>
+humidity:78									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:48:02</td>
+				<td>
+cityName:Bengaluru									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:02</td>
+				<td>
+Temparature Celsius difference in UI and API is with variance ragne  :Acutal Varince:2.17Expected  Varince:6									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:02</td>
+				<td>
+Temparature FH difference in UI and API is with variance ragne  :Acutal Varince:4.106Expected  Varince:10									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:02</td>
+				<td>
+Wind Speed difference in UI and API is with variance ragne  :Acutal Varince:3.8372Expected  Varince:15									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:02</td>
+				<td>
+humidity difference in UI and API is with variance ragne  :Acutal Varince:1Expected  Varince:20									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:02</td>
+				<td>
+CitName in UI and API is matched									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+											</div>
+										</li>
+										<li class="test-item" status="fail" author="" device="" tag=""> 
+											<div class="status-avatar fail-bg">
+												<i class="fa fa-times text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">WeatherComparisionByCityName</p> 
+													<p class="duration text-sm">0h:0m:15s+556ms</p> 
+													<span class="datetime">11:48:03 AM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-fail">WeatherComparisionByCityName</h5>
+															<span class='badge badge-success'>8/3/2020 11:48:03 AM</span>
+															<span class='badge badge-danger'>8/3/2020 11:48:18 AM</span>
+															<span class='badge badge-default'>0h:0m:15s+556ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:13</td>
+				<td>
+Clicked on Submenu in Home Page									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:15</td>
+				<td>
+Clicked on Weather Link in Home Page									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:16</td>
+				<td>
+Enter City Name to Pin your city New Delhi									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:16</td>
+				<td>
+Selected City New Delhiavailable on MAP									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:16</td>
+				<td>
+weather details are displayed on map as expected									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:17</td>
+				<td>
+Fetching weather info on Map from UI displayed below									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:48:17</td>
+				<td>
+tempInCelsius:30									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:48:17</td>
+				<td>
+tempInFH:86									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:48:17</td>
+				<td>
+wind:3.6									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:48:17</td>
+				<td>
+humidity:77									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:48:17</td>
+				<td>
+cityName:New Delhi									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:17</td>
+				<td>
+Response from API :{"coord":{"lon":77.23,"lat":28.61},"weather":[{"id":801,"main":"Clouds","description":"few clouds","icon":"02d"}],"base":"stations","main":{"temp":312.16,"feels_like":312.52,"temp_min":312.16,"temp_max":312.16,"pressure":995,"humidity":38,"sea_level":995,"grnd_level":972},"visibility":10000,"wind":{"speed":6.25,"deg":291},"clouds":{"all":16},"dt":1596435308,"sys":{"country":"IN","sunrise":1596413623,"sunset":1596462042},"timezone":19800,"id":1261481,"name":"New Delhi","cod":200}									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:48:17</td>
+				<td>
+tempInCelsius:39.01									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:48:17</td>
+				<td>
+tempInFH:102.218									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:48:17</td>
+				<td>
+wind:10.058375									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:48:17</td>
+				<td>
+humidity:38									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:48:17</td>
+				<td>
+cityName:New Delhi									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>11:48:17</td>
+				<td>
+Test case Failed due to following Error TempInCelsius Mismatch									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:48:18</td>
+				<td>
+Please refer the screenshot below and Screenshot path isC:\Users\m_krishna_m\Desktop\WhetherReportingComparator\WhetherReportingComparator\ExtentReports\Screenshots\WeatherComparisionByCityName-2020-08-03-11-48-17-2301.jpg									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+<div class="detail-foot">
+	<ul class="attachments">
+		<li>
+			<a href="C:\Users\m_krishna_m\Desktop\WhetherReportingComparator\WhetherReportingComparator\ExtentReports\Screenshots\WeatherComparisionByCityName-2020-08-03-11-48-17-2301.jpg" data-featherlight="image">
+				<div class="file-icon">
+					<i class="fa fa-file-image-o"></i> 
+				</div>
+				<div class="file-info">
+		                <span class="file-name">WeatherComparisionByCityName-2020-08-03-11-48-17-2301.jpg</span>
+		                <span class="file-size"> 3782370Kb</span>
+				</div>
+			</a>
+		</li>
+	</ul>
+</div>
+											</div>
+										</li>
+										<li class="test-item" status="pass" author="" device="" tag=""> 
+											<div class="status-avatar pass-bg">
+												<i class="fa fa-check text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">WeatherComparisionByCityName</p> 
+													<p class="duration text-sm">0h:0m:30s+329ms</p> 
+													<span class="datetime">11:48:19 AM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-pass">WeatherComparisionByCityName</h5>
+															<span class='badge badge-success'>8/3/2020 11:48:19 AM</span>
+															<span class='badge badge-danger'>8/3/2020 11:48:49 AM</span>
+															<span class='badge badge-default'>0h:0m:30s+329ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:46</td>
+				<td>
+Clicked on Submenu in Home Page									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:48</td>
+				<td>
+Clicked on Weather Link in Home Page									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:49</td>
+				<td>
+Enter City Name to Pin your city Patna									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:49</td>
+				<td>
+Selected City Patnaavailable on MAP									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:49</td>
+				<td>
+weather details are displayed on map as expected									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:49</td>
+				<td>
+Fetching weather info on Map from UI displayed below									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:48:49</td>
+				<td>
+tempInCelsius:32									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:48:49</td>
+				<td>
+tempInFH:90									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:48:49</td>
+				<td>
+wind:1.37									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:48:49</td>
+				<td>
+humidity:74									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:48:49</td>
+				<td>
+cityName:Patna									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:49</td>
+				<td>
+Response from API :{"coord":{"lon":85.12,"lat":25.6},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50d"}],"base":"stations","main":{"temp":306.15,"feels_like":312.38,"temp_min":306.15,"temp_max":306.15,"pressure":996,"humidity":75},"visibility":4000,"wind":{"speed":3.1,"deg":270},"clouds":{"all":75},"dt":1596435356,"sys":{"type":1,"id":9129,"country":"IN","sunrise":1596412026,"sunset":1596459852},"timezone":19800,"id":1260086,"name":"Patna","cod":200}									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:48:49</td>
+				<td>
+tempInCelsius:33									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:48:49</td>
+				<td>
+tempInFH:91.4									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:48:49</td>
+				<td>
+wind:4.988954									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:48:49</td>
+				<td>
+humidity:75									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:48:49</td>
+				<td>
+cityName:Patna									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:49</td>
+				<td>
+Temparature Celsius difference in UI and API is with variance ragne  :Acutal Varince:1Expected  Varince:6									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:49</td>
+				<td>
+Temparature FH difference in UI and API is with variance ragne  :Acutal Varince:1.4Expected  Varince:10									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:49</td>
+				<td>
+Wind Speed difference in UI and API is with variance ragne  :Acutal Varince:3.619Expected  Varince:15									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:49</td>
+				<td>
+humidity difference in UI and API is with variance ragne  :Acutal Varince:1Expected  Varince:20									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:49</td>
+				<td>
+CitName in UI and API is matched									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+											</div>
+										</li>
+										<li class="test-item" status="pass" author="" device="" tag=""> 
+											<div class="status-avatar pass-bg">
+												<i class="fa fa-check text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">WeatherComparisionByCityName</p> 
+													<p class="duration text-sm">0h:0m:31s+498ms</p> 
+													<span class="datetime">11:48:50 AM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-pass">WeatherComparisionByCityName</h5>
+															<span class='badge badge-success'>8/3/2020 11:48:50 AM</span>
+															<span class='badge badge-danger'>8/3/2020 11:49:22 AM</span>
+															<span class='badge badge-default'>0h:0m:31s+498ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:49:17</td>
+				<td>
+Clicked on Submenu in Home Page									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:49:19</td>
+				<td>
+Clicked on Weather Link in Home Page									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:49:21</td>
+				<td>
+Enter City Name to Pin your city Bhopal									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:49:21</td>
+				<td>
+Selected City Bhopalavailable on MAP									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:49:21</td>
+				<td>
+weather details are displayed on map as expected									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:49:22</td>
+				<td>
+Fetching weather info on Map from UI displayed below									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:49:22</td>
+				<td>
+tempInCelsius:29									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:49:22</td>
+				<td>
+tempInFH:84									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:49:22</td>
+				<td>
+wind:4.08									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:49:22</td>
+				<td>
+humidity:79									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:49:22</td>
+				<td>
+cityName:Bhopal									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:49:22</td>
+				<td>
+Response from API :{"coord":{"lon":77.4,"lat":23.27},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50d"}],"base":"stations","main":{"temp":300.15,"feels_like":300.14,"temp_min":300.15,"temp_max":300.15,"pressure":1003,"humidity":83},"visibility":5000,"wind":{"speed":8.2,"deg":200},"clouds":{"all":75},"dt":1596435305,"sys":{"type":1,"id":9063,"country":"IN","sunrise":1596414099,"sunset":1596461485},"timezone":19800,"id":1275841,"name":"Bhopal","cod":200}									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:49:22</td>
+				<td>
+tempInCelsius:27									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:49:22</td>
+				<td>
+tempInFH:80.6									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:49:22</td>
+				<td>
+wind:13.196588									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:49:22</td>
+				<td>
+humidity:83									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:49:22</td>
+				<td>
+cityName:Bhopal									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:49:22</td>
+				<td>
+Temparature Celsius difference in UI and API is with variance ragne  :Acutal Varince:2Expected  Varince:6									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:49:22</td>
+				<td>
+Temparature FH difference in UI and API is with variance ragne  :Acutal Varince:3.4Expected  Varince:10									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:49:22</td>
+				<td>
+Wind Speed difference in UI and API is with variance ragne  :Acutal Varince:9.1166Expected  Varince:15									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:49:22</td>
+				<td>
+humidity difference in UI and API is with variance ragne  :Acutal Varince:4Expected  Varince:20									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:49:22</td>
+				<td>
+CitName in UI and API is matched									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+											</div>
+										</li>
+										<li class="test-item" status="pass" author="" device="" tag=""> 
+											<div class="status-avatar pass-bg">
+												<i class="fa fa-check text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">WeatherComparisionByCityName</p> 
+													<p class="duration text-sm">0h:0m:32s+046ms</p> 
+													<span class="datetime">11:49:23 AM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-pass">WeatherComparisionByCityName</h5>
+															<span class='badge badge-success'>8/3/2020 11:49:23 AM</span>
+															<span class='badge badge-danger'>8/3/2020 11:49:55 AM</span>
+															<span class='badge badge-default'>0h:0m:32s+046ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:49:51</td>
+				<td>
+Clicked on Submenu in Home Page									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:49:53</td>
+				<td>
+Clicked on Weather Link in Home Page									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:49:54</td>
+				<td>
+Enter City Name to Pin your city Mumbai									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:49:54</td>
+				<td>
+Selected City Mumbaiavailable on MAP									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:49:54</td>
+				<td>
+weather details are displayed on map as expected									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:49:55</td>
+				<td>
+Fetching weather info on Map from UI displayed below									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:49:55</td>
+				<td>
+tempInCelsius:29									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:49:55</td>
+				<td>
+tempInFH:84									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:49:55</td>
+				<td>
+wind:7.64									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:49:55</td>
+				<td>
+humidity:85									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:49:55</td>
+				<td>
+cityName:Mumbai									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:49:55</td>
+				<td>
+Response from API :{"coord":{"lon":72.85,"lat":19.01},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50d"}],"base":"stations","main":{"temp":302.14,"feels_like":305.74,"temp_min":301.15,"temp_max":303.15,"pressure":1001,"humidity":88},"visibility":3000,"wind":{"speed":5.7,"deg":210,"gust":10.8},"clouds":{"all":75},"dt":1596435362,"sys":{"type":1,"id":9052,"country":"IN","sunrise":1596415571,"sunset":1596462197},"timezone":19800,"id":1275339,"name":"Mumbai","cod":200}									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:49:55</td>
+				<td>
+tempInCelsius:28.99									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:49:55</td>
+				<td>
+tempInFH:84.182									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:49:55</td>
+				<td>
+wind:9.173238									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:49:55</td>
+				<td>
+humidity:88									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:49:55</td>
+				<td>
+cityName:Mumbai									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:49:55</td>
+				<td>
+Temparature Celsius difference in UI and API is with variance ragne  :Acutal Varince:0.01Expected  Varince:6									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:49:55</td>
+				<td>
+Temparature FH difference in UI and API is with variance ragne  :Acutal Varince:0.182Expected  Varince:10									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:49:55</td>
+				<td>
+Wind Speed difference in UI and API is with variance ragne  :Acutal Varince:1.5332Expected  Varince:15									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:49:55</td>
+				<td>
+humidity difference in UI and API is with variance ragne  :Acutal Varince:3Expected  Varince:20									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:49:55</td>
+				<td>
+CitName in UI and API is matched									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+											</div>
+										</li>
+										<li class="test-item" status="pass" author="" device="" tag=""> 
+											<div class="status-avatar pass-bg">
+												<i class="fa fa-check text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">WeatherComparisionByCityName</p> 
+													<p class="duration text-sm">0h:0m:30s+615ms</p> 
+													<span class="datetime">11:49:55 AM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-pass">WeatherComparisionByCityName</h5>
+															<span class='badge badge-success'>8/3/2020 11:49:55 AM</span>
+															<span class='badge badge-danger'>8/3/2020 11:50:26 AM</span>
+															<span class='badge badge-default'>0h:0m:30s+615ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:50:22</td>
+				<td>
+Clicked on Submenu in Home Page									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:50:24</td>
+				<td>
+Clicked on Weather Link in Home Page									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:50:26</td>
+				<td>
+Enter City Name to Pin your city Hyderabad									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:50:26</td>
+				<td>
+Selected City Hyderabadavailable on MAP									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:50:26</td>
+				<td>
+weather details are displayed on map as expected									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:50:26</td>
+				<td>
+Fetching weather info on Map from UI displayed below									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:50:26</td>
+				<td>
+tempInCelsius:26									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:50:26</td>
+				<td>
+tempInFH:79									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:50:26</td>
+				<td>
+wind:8.96									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:50:26</td>
+				<td>
+humidity:78									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:50:26</td>
+				<td>
+cityName:Hyderabad									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:50:26</td>
+				<td>
+Response from API :{"coord":{"lon":78.47,"lat":17.38},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}],"base":"stations","main":{"temp":300.7,"feels_like":303.98,"temp_min":300.15,"temp_max":301.15,"pressure":1006,"humidity":78},"visibility":6000,"wind":{"speed":3.1,"deg":270},"clouds":{"all":75},"dt":1596435630,"sys":{"type":1,"id":9214,"country":"IN","sunrise":1596414361,"sunset":1596460710},"timezone":19800,"id":1269843,"name":"Hyderabad","cod":200}									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:50:26</td>
+				<td>
+tempInCelsius:27.55									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:50:26</td>
+				<td>
+tempInFH:81.59									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:50:26</td>
+				<td>
+wind:4.988954									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:50:26</td>
+				<td>
+humidity:78									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:50:26</td>
+				<td>
+cityName:Hyderabad									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:50:26</td>
+				<td>
+Temparature Celsius difference in UI and API is with variance ragne  :Acutal Varince:1.55Expected  Varince:6									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:50:26</td>
+				<td>
+Temparature FH difference in UI and API is with variance ragne  :Acutal Varince:2.59Expected  Varince:10									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:50:26</td>
+				<td>
+Wind Speed difference in UI and API is with variance ragne  :Acutal Varince:3.971Expected  Varince:15									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:50:26</td>
+				<td>
+humidity difference in UI and API is with variance ragne  :Acutal Varince:0Expected  Varince:20									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:50:26</td>
+				<td>
+CitName in UI and API is matched									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+											</div>
+										</li>
+										<li class="test-item" status="pass" author="" device="" tag=""> 
+											<div class="status-avatar pass-bg">
+												<i class="fa fa-check text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">WeatherComparisionByZipCode</p> 
+													<p class="duration text-sm">0h:0m:28s+848ms</p> 
+													<span class="datetime">11:50:27 AM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-pass">WeatherComparisionByZipCode</h5>
+															<span class='badge badge-success'>8/3/2020 11:50:27 AM</span>
+															<span class='badge badge-danger'>8/3/2020 11:50:56 AM</span>
+															<span class='badge badge-default'>0h:0m:28s+848ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:50:52</td>
+				<td>
+Clicked on Submenu in Home Page									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:50:54</td>
+				<td>
+Clicked on Weather Link in Home Page									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:50:55</td>
+				<td>
+Enter City Name to Pin your city Bengaluru									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:50:55</td>
+				<td>
+Selected City Bengaluruavailable on MAP									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:50:55</td>
+				<td>
+weather details are displayed on map as expected									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:50:55</td>
+				<td>
+Fetching weather info on Map from UI displayed below									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:50:55</td>
+				<td>
+tempInCelsius:24									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:50:55</td>
+				<td>
+tempInFH:75									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:50:55</td>
+				<td>
+wind:7.75									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:50:55</td>
+				<td>
+humidity:77									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:50:55</td>
+				<td>
+cityName:Bengaluru									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:50:56</td>
+				<td>
+Response from API :{"coord":{"lon":77.57,"lat":12.94},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}],"base":"stations","main":{"temp":299.42,"feels_like":299.14,"temp_min":298.15,"temp_max":300.93,"pressure":1009,"humidity":78},"visibility":6000,"wind":{"speed":7.2,"deg":230},"clouds":{"all":75},"dt":1596435659,"sys":{"type":1,"id":9205,"country":"IN","sunrise":1596414943,"sunset":1596460560},"timezone":19800,"id":0,"name":"Basavanagudi","cod":200}									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:50:56</td>
+				<td>
+tempInCelsius:26.27									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:50:56</td>
+				<td>
+tempInFH:79.2860000000001									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:50:56</td>
+				<td>
+wind:11.587248									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:50:56</td>
+				<td>
+humidity:78									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:50:56</td>
+				<td>
+cityName:Basavanagudi									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:50:56</td>
+				<td>
+Temparature Celsius difference in UI and API is with variance ragne  :Acutal Varince:2.27Expected  Varince:6									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:50:56</td>
+				<td>
+Temparature FH difference in UI and API is with variance ragne  :Acutal Varince:4.286Expected  Varince:10									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:50:56</td>
+				<td>
+Wind Speed difference in UI and API is with variance ragne  :Acutal Varince:3.8372Expected  Varince:15									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:50:56</td>
+				<td>
+humidity difference in UI and API is with variance ragne  :Acutal Varince:1Expected  Varince:20									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+											</div>
+										</li>
+                                </ul>    
+                            </div>
+                        </div>
+                        <div class="test-content scrollable">
+                            <div class="test-content-tools">
+                                <ul>
+                                    <li>
+                                        <a class="back-to-test" href="javascript:void(0)">
+                                            <i class="fa fa-arrow-left"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="test-content-detail">
+                                <div class="detail-body"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<script type='text/javascript'>
+	
+</script>
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/f97b667/spark/js/script.js"></script>
+
+</body>
+
+</html>
